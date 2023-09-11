@@ -12,9 +12,9 @@ let mixedArray = [19,'a',20,'b',15,34,'c'];
 let average = calculateAverage(mixedArray);
 console.log(average);
 ///2
-// let x = (prompt('Введіть перше число:'));
+// let x = Number(prompt('Введіть перше число:'));
 // let znak = prompt('Введіть операцію (+, -, *, /, %, ^):');
-// let y = (prompt('Введіть друге число:'));
+// let y = Number(prompt('Введіть друге число:'));
 // function doMath(x, znak, y) {
 //     switch (znak) {
 //         case '+':
@@ -49,8 +49,8 @@ console.log(average);
 //     return matrix;
 // }
 //
-// let numRows = (prompt('Введіть кількість рядків:'));
-// let numCols = (prompt('Введіть кількість стовпців:'));
+// let numRows = Number(prompt('Введіть кількість рядків:'));
+// let numCols = Number(prompt('Введіть кількість стовпців:'));
 // let userMatrix = createMatrix(numRows, numCols);
 // console.log(userMatrix);
 ///4
